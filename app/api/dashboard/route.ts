@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({metrics:{activeUsers:12840,conversionRate:8.42,averageSessionSeconds:272,monthlyRevenue:48290},updatedAt:new Date().toISOString()},{headers:{'Cache-Control':'public, max-age=60, stale-while-revalidate=300'}})}
