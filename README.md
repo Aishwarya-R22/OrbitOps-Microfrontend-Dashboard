@@ -13,6 +13,10 @@ npm run dev
 
 Open `http://localhost:3000`. Create a production bundle with `npm run build` and run static analysis with `npm run lint`.
 
+## Netlify deployment
+
+Connect this repository from the Netlify dashboard. The included `netlify.toml` configures the production build, Node.js version, Next.js runtime, and publish output automatically. No manual publish-directory entry is required.
+
 ## Project structure
 
 ```text
